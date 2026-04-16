@@ -7,7 +7,7 @@ nomor = 1      # nomor antrian
 # ENQUEUE (tambah antrian)
 def enqueue():
     global nomor
-    nama = input("Masukkan nama: ")
+    nama = input("Masukkan nama pelanggan: ")
     pesanan = input("Masukkan pesanan: ")
 
     nomor_antrian = f"A{nomor:03}"  # format A001, A002
