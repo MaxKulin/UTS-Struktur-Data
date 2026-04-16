@@ -1,4 +1,3 @@
 # UTS-Struktur-Data
 
-angjay
-lain kali kalo ngasi tugas yang lebih ribet lagi anj
+I Gusti Ngurah Ketut Puja Bagus Permana - 2501010021 - MaxKulin
