@@ -15,28 +15,22 @@ Berdasarkan studi kasus sistem antrian pemesanan makanan, maka dapat dirumuskan 
   2. Bagaimana cara mengimplementasikan operasi dasar queue seperti enqueue, dequeue, peek, dan display dalam sebuah program Python?
   3. Bagaimana sistem antrian yang dibuat mampu menyelesaikan permasalahan nyata seperti pengelolaan pemesanan makanan agar tidak terjadi kekacauan urutan layanan?
      
-### **1.2 Solusi**
+**1.2 Solusi**
 
-Untuk menyelesaikan permasalahan yang telah dirumuskan, dibuat sebuah sistem antrian sederhana menggunakan struktur data **Queue** berbasis array (*list* pada Python).
+Untuk menyelesaikan permasalahan, dibuat sistem antrian sederhana menggunakan struktur data **Queue** berbasis *list Python* dengan metode **FIFO (First In First Out)**, sehingga pelanggan yang datang lebih dahulu akan dilayani terlebih dahulu.
 
-#### ** Pendekatan yang Digunakan**
+**Fitur utama:**
 
-* Menggunakan metode **FIFO (First In First Out)**
-  → Pelanggan yang datang lebih dahulu akan dilayani lebih dahulu
+* Enqueue → menambah pelanggan ke antrian
+* Dequeue → memanggil pelanggan sesuai urutan
+* Peek → melihat antrian terdepan
+* Display → menampilkan seluruh antrian
 
-#### ** Fitur Utama Sistem**
+**Manfaat:**
 
-* **Enqueue** → Menambahkan pelanggan ke dalam antrian
-* **Dequeue** → Memanggil pelanggan sesuai urutan
-* **Peek** → Melihat pelanggan yang berada di posisi terdepan
-* **Display** → Menampilkan seluruh data antrian
-
-#### ** Manfaat Sistem**
-
-* Menjaga keteraturan urutan pelayanan
-* Menghindari kesalahan pemanggilan pelanggan
-* Meningkatkan efisiensi dalam proses pemesanan makanan
-* Mempermudah pengelolaan data antrian secara sistematis
+* Menjaga keteraturan pelayanan
+* Menghindari kesalahan urutan
+* Meningkatkan efisiensi sistem antrian
 
 BAB II
 
