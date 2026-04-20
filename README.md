@@ -8,7 +8,6 @@ Wayan Bayu Kusumadinatha - 2501010359 - uncrownedbay
 
 BAB I
 1.1 Rumusan Masalah
-
 Berdasarkan studi kasus sistem antrian pemesanan makanan, maka dapat dirumuskan beberapa permasalahan sebagai berikut:
   1. Bagaimana struktur data queue dapat digunakan untuk mengelola antrian pelanggan secara teratur dan efisien?
   2. Bagaimana cara mengimplementasikan operasi dasar queue seperti enqueue, dequeue, peek, dan display dalam sebuah program Python?
@@ -93,11 +92,13 @@ Ulangi:
     o Nama pelanggan
     o Pesanan makanan
     o Pilihan menu
+    
   • Proses
     o Menambahkan data ke dalam antrian (enqueue)
     o Menghapus data dari depan (dequeue)
     o Melihat data terdepan (peek)
     o Menampilkan semua data (display)
+    
   • Output
     o Nomor antrian
     o Informasi pelanggan
