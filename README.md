@@ -96,23 +96,23 @@ Ulangi:
 
 
 ```
-## 3.2 Alur Sistem (Input -> Proses -> Output)
+3.2 Alur Sistem (Input -> Proses -> Output)
 
-Input
-- Nama pelanggan
-- Pesanan makanan
-- Pilihan menu
+input
+- nama pelanggan
+- pesanan makanan
+- pilihan menu
 
-Proses
-- Menambahkan data ke dalam antrian (enqueue)
-- Menghapus data dari depan (dequeue)
-- Melihat data terdepan (peek)
-- Menampilkan semua data (display)
+proses
+- menambahkan data ke dalam antrian (enqueue)
+- menghapus data dari depan (dequeue)
+- melihat data terdepan (peek)
+- menampilkan semua data (display)
 
-Output
-- Nomor antrian
-- Informasi pelanggan
-- Daftar antrian
+output
+- nomor antrian
+- informasi pelanggan
+- daftar antrian
   
 3.3 Sistem Antrian Pemesanan Makanan (Queue - FIFO)
 ```
