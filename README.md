@@ -7,7 +7,9 @@ Zein Ahmad - 2501010360 - jennnod
 Wayan Bayu Kusumadinatha - 2501010359 - uncrownedbay
 
 BAB I
+
 1.1 Rumusan Masalah
+
 Berdasarkan studi kasus sistem antrian pemesanan makanan, maka dapat dirumuskan beberapa permasalahan sebagai berikut:
   1. Bagaimana struktur data queue dapat digunakan untuk mengelola antrian pelanggan secara teratur dan efisien?
   2. Bagaimana cara mengimplementasikan operasi dasar queue seperti enqueue, dequeue, peek, dan display dalam sebuah program Python?
@@ -26,6 +28,7 @@ Solusi yang diterapkan adalah:
   • Sistem ini membantu menghindari kesalahan urutan layanan dan meningkatkan efisiensi dalam pengelolaan pemesanan makanan.
   
 BAB II
+
 2.1 Landasan Teori
 
   Struktur data adalah cara untuk mengatur data dalam memori komputer sehingga dapat dengan mudah diakses dan digunakan oleh program komputer. Setiap struktur data memiliki format khusus untuk mengatur, memproses, mengambil dan menyimpan data, memungkinkan data untuk dimanipulasi dengan berbagai cara oleh pengguna dan sistem computer. https://builtin.com/data-science/python-data-structures
@@ -47,6 +50,7 @@ indeks, dimana:
 Dengan menggunakan queue, sistem dapat berjalan secara teratur dan adil karena mengikuti urutan kedatangan.
 
 BAB III
+
 3.1 Desain Sistem dan Implementasi
 
 Dalam sistem ini digunakan metode Queue (FIFO) untuk mengatur antrian pemesananmakanan. Berikut adalah pseudocode dari sistem yang dibuat:
@@ -88,21 +92,28 @@ Ulangi:
 ```
 3.2 Alur Sistem (Input → Proses → Output)
 
-  • Input
-    o Nama pelanggan
-    o Pesanan makanan
-    o Pilihan menu
+• Input
+  o Nama pelanggan
     
-  • Proses
-    o Menambahkan data ke dalam antrian (enqueue)
-    o Menghapus data dari depan (dequeue)
-    o Melihat data terdepan (peek)
-    o Menampilkan semua data (display)
+  o Pesanan makanan
     
-  • Output
-    o Nomor antrian
-    o Informasi pelanggan
-    o Daftar antrian
+  o Pilihan menu
+    
+• Proses
+  o Menambahkan data ke dalam antrian (enqueue)
+  
+  o Menghapus data dari depan (dequeue)
+  
+  o Melihat data terdepan (peek)
+  
+  o Menampilkan semua data (display)
+    
+• Output
+  o Nomor antrian
+  
+  o Informasi pelanggan
+  
+  o Daftar antrian
     
 3.3 Sistem Antrian Pemesanan Makanan (Queue - FIFO)
 ```
