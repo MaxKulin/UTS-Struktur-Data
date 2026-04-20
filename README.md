@@ -16,6 +16,7 @@ Berdasarkan studi kasus sistem antrian pemesanan makanan, maka dapat dirumuskan 
 1.2 Solusi
   Untuk menyelesaikan permasalahan tersebut, dibuat sebuah sistem antrian sederhana menggunakan struktur data queue berbasis array (list Python).
 Solusi yang diterapkan adalah:
+
   • Menggunakan metode FIFO (First In First Out), sehingga pelanggan yang datang terlebih dahulu akan dilayani lebih dulu.
   • Menyediakan fitur utama:
       o Enqueue → menambah pelanggan ke antrian
