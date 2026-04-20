@@ -14,6 +14,7 @@ Berdasarkan studi kasus sistem antrian pemesanan makanan, maka dapat dirumuskan 
   3. Bagaimana sistem antrian yang dibuat mampu menyelesaikan permasalahan nyata seperti pengelolaan pemesanan makanan agar tidak terjadi kekacauan urutan layanan?
      
 1.2 Solusi
+
   Untuk menyelesaikan permasalahan tersebut, dibuat sebuah sistem antrian sederhana menggunakan struktur data queue berbasis array (list Python).
 Solusi yang diterapkan adalah:
 
