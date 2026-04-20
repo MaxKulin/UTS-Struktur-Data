@@ -93,36 +93,26 @@ Ulangi:
 
     Jika pilihan = 5:
         Selesai
+
+
 ```
-### **3.2 Alur Sistem (Input → Proses → Output)**
+## 3.2 Alur Sistem (Input → Proses → Output)
 
-#### **🔹 Input**
+### Input
+- Nama pelanggan
+- Pesanan makanan
+- Pilihan menu
 
-* Nama pelanggan
-* Pesanan makanan
-* Pilihan menu
+### Proses
+- Menambahkan data ke dalam antrian (enqueue)
+- Menghapus data dari depan antrian (dequeue)
+- Melihat data terdepan (peek)
+- Menampilkan semua data (display)
 
-#### **🔹 Proses**
-
-* **Enqueue** → Menambahkan data pelanggan ke dalam antrian
-* **Dequeue** → Menghapus data pelanggan dari bagian depan antrian
-* **Peek** → Melihat data pelanggan yang berada di posisi terdepan
-* **Display** → Menampilkan seluruh data antrian
-
-#### **🔹 Output**
-
-* Nomor antrian (contoh: A001, A002, ...)
-* Informasi pelanggan (nama dan pesanan)
-* Daftar seluruh antrian
-
-#### **🔄 Alur Singkat Sistem**
-
-```id="ipo123"
-Input data pelanggan → 
-Diproses menggunakan operasi queue (FIFO) → 
-Output ditampilkan → 
-Kembali ke menu sampai pengguna memilih keluar
-```
+### Output
+- Nomor antrian
+- Informasi pelanggan
+- Daftar antrian
     
 3.3 Sistem Antrian Pemesanan Makanan (Queue - FIFO)
 ```
