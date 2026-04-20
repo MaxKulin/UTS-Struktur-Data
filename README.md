@@ -8,6 +8,7 @@ Wayan Bayu Kusumadinatha - 2501010359 - uncrownedbay
 
 BAB I
 1.1 Rumusan Masalah
+
 Berdasarkan studi kasus sistem antrian pemesanan makanan, maka dapat dirumuskan beberapa permasalahan sebagai berikut:
   1. Bagaimana struktur data queue dapat digunakan untuk mengelola antrian pelanggan secara teratur dan efisien?
   2. Bagaimana cara mengimplementasikan operasi dasar queue seperti enqueue, dequeue, peek, dan display dalam sebuah program Python?
@@ -17,7 +18,6 @@ Berdasarkan studi kasus sistem antrian pemesanan makanan, maka dapat dirumuskan 
 
   Untuk menyelesaikan permasalahan tersebut, dibuat sebuah sistem antrian sederhana menggunakan struktur data queue berbasis array (list Python).
 Solusi yang diterapkan adalah:
-
   • Menggunakan metode FIFO (First In First Out), sehingga pelanggan yang datang terlebih dahulu akan dilayani lebih dulu.
   • Menyediakan fitur utama:
       o Enqueue → menambah pelanggan ke antrian
@@ -28,13 +28,16 @@ Solusi yang diterapkan adalah:
   
 BAB II
 2.1 Landasan Teori
+
   Struktur data adalah cara untuk mengatur data dalam memori komputer sehingga dapat dengan mudah diakses dan digunakan oleh program komputer. Setiap struktur data memiliki format khusus untuk mengatur, memproses, mengambil dan menyimpan data, memungkinkan data untuk dimanipulasi dengan berbagai cara oleh pengguna dan sistem computer. https://builtin.com/data-science/python-data-structures
   
   Queue dapat dianalogikan sebagai antrian di bioskop, di mana orang yang pertama kali masuk ke antrian adalah orang pertama yang dilayani. Dengan kata lain, elemen yang pertama kali dimasukkan akan menjadi elemen pertama yang keluar. Stack adalah salah satu struktur data yang paling umum dijumpai dalam pemrograman. Cara kerja stack dapat diibaratkan seperti tumpukan buku. Ketika kita ingin menambah buku ke dalam tumpukan, kita hanya bisa menambahnya di bagian atas. Begitu juga ketika ingin mengambil buku, kita harus mengambil yang paling atas terlebih dahulu.Mengenal Stack dan Queue Serta Perbedaan dan Contohnya - Lawencon
   
   Algoritma FIFO ( First In First Out) adalah metode pengelolaan data atau barang yang mengikuti prinsip “Yang Pertama Masuk, Yang Pertama Keluar.” Dalam konteks algoritma, FIFO digunakan untuk menjadwalkan dan mengelola proses atau data dengan cara memberikan prioritas pada yang pertama kali tiba.https://fikti.umsu.ac.id/algoritma-first-in-first-out-fifo-pengertian-cara-kerja-beserta-contohnya/ . LIFO (Last In First Out) merupakan metode pengelolaan barang yang berkebalikan dengan FIFO. Manajemen persediaan dengan metode ini dilakukan dengan cara barang yang terakhir masuk ke gudang adalah barang pertama yang akan keluar dari gudang untuk dijual. https://www.transcon-indonesia.com/id/blog/metode-fifo-fefo-lifo-dan-average .
   
-  Implementasi queue dapat dilakukan menggunakan beberapa cara, salah satunya adalah menggunakan array (list dalam Python). Pada metode ini, data disimpan dalam urutan indeks, dimana:
+  Implementasi queue dapat dilakukan menggunakan beberapa cara, salah satunya adalah menggunakan array (list dalam Python). Pada metode ini, data disimpan dalam urutan
+
+indeks, dimana:
     Penambahan data dilakukan di bagian akhir array
     Penghapusan data dilakukan di bagian awal array
   Operasi utama dalam queue meliputi:
@@ -46,6 +49,7 @@ Dengan menggunakan queue, sistem dapat berjalan secara teratur dan adil karena m
 
 BAB III
 3.1 Desain Sistem dan Implementasi
+
 Dalam sistem ini digunakan metode Queue (FIFO) untuk mengatur antrian pemesananmakanan. Berikut adalah pseudocode dari sistem yang dibuat:
 ```
 Mulai
@@ -84,6 +88,7 @@ Ulangi:
         Selesai
 ```
 3.2 Alur Sistem (Input → Proses → Output)
+
   • Input
     o Nama pelanggan
     o Pesanan makanan
@@ -167,6 +172,9 @@ while True:
 ```
 BAB IV
 4.1 Kesimpulan
+
 • Rumusan masalah telah berhasil diselesaikan dengan menggunakan konsep queue untuk mengatur antrian pelanggan.
+
 • Sistem yang dibuat telah berjalan sesuai dengan teori, yaitu menggunakan prinsip FIFO di mana pelanggan yang datang lebih dulu akan dilayani terlebih dahulu.
+
 • Penggunaan queue sangat bermanfaat dalam kasus pemesanan makanan karena dapat menjaga keteraturan, menghindari kesalahan urutan, serta meningkatkan efisiensi pelayanan.
